@@ -9,7 +9,7 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div>
+    <div className="mt-14">
 
       <Navbar/>
       <Home/>

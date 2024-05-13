@@ -28,7 +28,7 @@ function Navbar() {
    ]
    const[nav,setNav]=useState(false);
   return (
-    <div className='px-4  flex justify-between items-center w-full h-20 text-white lg:fixed bg-black'>
+    <div className='px-4  flex justify-between items-center w-full top-0 h-20 text-white fixed bg-black'>
 <div>
   <h1 className='font-signature text-5xl ml-2 '>Odunayo</h1>
 </div>
