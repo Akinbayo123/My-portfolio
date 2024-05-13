@@ -25,7 +25,7 @@ const Contact = () => {
       <a href="mailto:akingbolaodun@gmail.com" className="items-center py-3 px-3 rounded-full bg-gray-500 ms-3 cursor-pointer hover:scale-105 duration-200">
        <HiOutlineMail size={24}/>
       </a>
-      <a href="resume.pdf" className="items-center py-3 px-3 rounded-full bg-gray-500 ms-3 cursor-pointer hover:scale-105 duration-200" download="true" 
+      <a href="resume.pdf" className="items-center py-3 px-3 rounded-full bg-gray-500 ms-3 cursor-pointer hover:scale-105 duration-200" download="resume" 
         target="_blank" rel="noreferrer" >
        <BsFillPersonLinesFill size={24}/>
       </a>
