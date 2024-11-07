@@ -1,28 +1,36 @@
 
 import snowbooster from "../assets/portfolio/snowbooster.jpeg"
 import blackmanspride from "../assets/portfolio/blackmanspride.jpeg"
+import hyrax from "../assets/portfolio/hyrax.png"
 
 const Portfolio = () => {
-  const portfolios=[
+  const portfolios = [
 
     {
-      id:1,
-      src:blackmanspride,
-      title:"Blackmanspride",
-      href:'www.blackmanspride.ng',
-      description:"A NGO website"
+      id: 1,
+      src: blackmanspride,
+      title: "Blackmanspride",
+      href: 'https://www.blackmanspride.ng',
+      description: "An NGO website showcasing their mission, projects, and impact."
 
     },
     {
-      id:2,
-      src:snowbooster,
-      title:"Snowbooster",
-      href:'www.snowbooster.ng',
-      description:'A website for boosting social media presence and to get real engagement on any social media platform'
+      id: 2,
+      src: snowbooster,
+      title: "Snowbooster",
+      href: 'https://www.snowbooster.ng',
+      description: 'A website for boosting social media presence and to get real engagement on any social media platform'
     },
-   
+    {
+      id: 3,
+      src: hyrax,
+      title: "Hyrax",
+      href: 'https://www.hyrax.ng',
+      description: 'An e-commerce website, Hyrax, offering a seamless shopping experience with a wide range of products.'
+    },
+
   ]
- 
+
   return (
     <div
       name="portfolio"
@@ -37,7 +45,7 @@ const Portfolio = () => {
         </div>
 
         <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {portfolios.map(({ id, src,title,href,description }) => (
+          {portfolios.map(({ id, src, title, href, description }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -45,16 +53,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="text-center mt-5 mb-3">
-                
-                <a href={href} className="w-1/2 underline text-xl px-6 cursor-pointer py-3 m-4 duration-200 hover:scale-105">
+
+                <a href={href} className="w-1/2 underline text-xl px-6 cursor-pointer py-3 m-4 duration-200 hover:scale-105" target="_blank" rel="noopener noreferrer">
                   {title}
                 </a>
-               
-                
-                
+
+
+
                 <p className="mt-6 mx-3">{description}</p>
-             
-              
+
+
               </div>
             </div>
           ))}
