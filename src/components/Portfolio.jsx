@@ -5,9 +5,16 @@ import hyrax from "../assets/portfolio/hyrax.png"
 
 const Portfolio = () => {
   const portfolios = [
-
     {
       id: 1,
+      src: hyrax,
+      title: "Hyrax",
+      href: 'https://www.hyrax.ng',
+      description: 'An e-commerce website, Hyrax, offering a seamless shopping experience with a wide range of products.'
+    },
+    {
+
+      id: 2,
       src: blackmanspride,
       title: "Blackmanspride",
       href: 'https://www.blackmanspride.ng',
@@ -15,19 +22,13 @@ const Portfolio = () => {
 
     },
     {
-      id: 2,
+      id: 3,
       src: snowbooster,
       title: "Snowbooster",
       href: 'https://www.snowbooster.ng',
       description: 'A website for boosting social media presence and to get real engagement on any social media platform'
     },
-    {
-      id: 3,
-      src: hyrax,
-      title: "Hyrax",
-      href: 'https://www.hyrax.ng',
-      description: 'An e-commerce website, Hyrax, offering a seamless shopping experience with a wide range of products.'
-    },
+
 
   ]
 
