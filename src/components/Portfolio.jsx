@@ -2,11 +2,27 @@
 import snowbooster from "../assets/portfolio/snowbooster.jpeg"
 import blackmanspride from "../assets/portfolio/blackmanspride.jpeg"
 import hyrax from "../assets/portfolio/hyrax.png"
+import marketingpros from "../assets/portfolio/marketingpro.png"
+import tsara from "../assets/portfolio/tsara.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: tsara,
+      title: "Tsara",
+      href: 'https://www.tsara.ng',
+      description: 'Africa’s integrated financial platform for seamless payments, savings, and business growth.'
+    },
+    {
+      id: 2,
+      src: marketingpros,
+      title: "Marketing Pros",
+      href: 'https://marketingpros.ng',
+      description: 'A leading e-commerce and logistics company providing fast, reliable, and efficient delivery solutions across Nigeria.'
+    },
+    {
+      id: 3,
       src: hyrax,
       title: "Hyrax",
       href: 'https://www.hyrax.ng',
@@ -14,7 +30,7 @@ const Portfolio = () => {
     },
     {
 
-      id: 2,
+      id: 4,
       src: blackmanspride,
       title: "Blackmanspride",
       href: 'https://www.blackmanspride.ng',
@@ -22,7 +38,7 @@ const Portfolio = () => {
 
     },
     {
-      id: 3,
+      id: 5,
       src: snowbooster,
       title: "Snowbooster",
       href: 'https://www.snowbooster.ng',
